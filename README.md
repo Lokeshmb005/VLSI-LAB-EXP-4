@@ -87,6 +87,9 @@ begin
 end
 endmodule
 ```
+OUTPUT WAVEFORM
+![dff](https://github.com/Lokeshmb005/VLSI-LAB-EXP-4/assets/159941167/51848cb7-beaf-4a97-acf4-fc0020868772)
+
 # JK Flip Flop
 ```
 module JK_flipflop (q, q_bar, j,k, clk, reset);
@@ -108,6 +111,9 @@ module JK_flipflop (q, q_bar, j,k, clk, reset);
   assign q_bar = ~q;
 endmodule
 ```
+OUTPUT WAVEFORM
+![jk](https://github.com/Lokeshmb005/VLSI-LAB-EXP-4/assets/159941167/8692d70b-4021-4905-8002-ab1b31c8c694)
+
 # SR Flip Flop
 ```
 module SR_flipflop (q, q_bar, s,r, clk, reset);
@@ -129,6 +135,9 @@ module SR_flipflop (q, q_bar, s,r, clk, reset);
   assign q_bar = ~q;
 endmodule
 ```
+OUTPUT WAVEFORM
+![sr](https://github.com/Lokeshmb005/VLSI-LAB-EXP-4/assets/159941167/0dd96a47-11a9-4940-9bfd-e3508997b283)
+
 # T Flip Flop
 ```
 module tff (t,clk, rstn,q);  
@@ -145,6 +154,9 @@ module tff (t,clk, rstn,q);
   end  
 endmodule
 ```
+OUTPUT WAVEFORM
+![t](https://github.com/Lokeshmb005/VLSI-LAB-EXP-4/assets/159941167/34234eea-6bdd-4dc6-9d5c-fadfa2f67090)
+
 # Ripple Carry Counter
 ```
 module D_FF(q, d, clk, reset);
@@ -190,24 +202,6 @@ counter_output <= 0;
 end
 endmodule
 ```
-
-OUTPUT WAVEFORM
-
-# D Flip Flop
-
-![D Flip Flop](https://github.com/lokeshmb005/VLSI-LAB-EXP-4/assets/117891438/0aeeb1ce-64b7-48e0-bcbd-efbf6bf0010d)
-
-# JK Flip flop
-
-![JK Flip flop](https://github.com/lokeshmb005/VLSI-LAB-EXP-4/assets/117891438/f58c6b39-81b3-400f-b2e6-5df43dd4f4ce)
-
-# SR Flip Flop
-
-![SR Flip Flop](https://github.com/lokeshmb005/VLSI-LAB-EXP-4/assets/117891438/c3f2b9c5-897f-48ef-b12d-2f446de70cb8)
-
-# T Flip FLop
-
-![T Flip Flop](https://github.com/lokeshmb005/VLSI-LAB-EXP-4/assets/117891438/5bae902d-bc9e-48f1-b32c-fdb06441a797)
 
 RESULT:
 Thus the simulation and implementation of sequential logic gates is done and verified.
