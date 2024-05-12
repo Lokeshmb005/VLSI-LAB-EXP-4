@@ -2,12 +2,15 @@
 **SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS**
 
 **AIM**: 
+
  To simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Vivado 2023.1.
 
 **APPARATUS REQUIRED:**
+
 Vivado 2023.1
 
-Procedure:
+**Procedure:**
+
 1. Open Vivado: Launch Xilinx Vivado software on your computer.
 
 2. Create a New Project: Click on "Create Project" from the welcome page or navigate through "File" > "Project" > "New".
