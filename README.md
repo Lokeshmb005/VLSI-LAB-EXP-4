@@ -1,10 +1,10 @@
-# VLSI-LAB-EXP-4
-SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS
 
-AIM: 
+**SIMULATION AND IMPLEMENTATION OF SEQUENTIAL LOGIC CIRCUITS**
+
+**AIM**: 
  To simulate and synthesis SR, JK, T, D - FLIPFLOP, COUNTER DESIGN using Vivado 2023.1.
 
-APPARATUS REQUIRED:
+**APPARATUS REQUIRED:**
 Vivado 2023.1
 
 Procedure:
@@ -25,20 +25,6 @@ Procedure:
 8. Run Simulation: Start the simulation by clicking on the "Run" button in the simulation window.
 
 9. View Results: After the simulation completes, you can view waveforms, debug signals, and analyze the behavior of your design.
-
-
-Spartan6 FPGA
-
-**LOGIC DIAGRAM**
-
-
-
-
-
-
-
-
-
 
 
 # D Flip Flop
@@ -205,10 +191,10 @@ out=out-1;
 end
 endmodule
 ~~~
-OUTPUT WAVEFORM
+**OUTPUT WAVEFORM**
 
 ![image](https://github.com/Lokeshmb005/VLSI-LAB-EXP-4/assets/159941167/fbda14b0-f2c4-414c-9651-cd65dc4dff88)
 
-RESULT:
+**RESULT:**
 Thus the simulation and implementation of sequential logic gates is done and verified.
 
